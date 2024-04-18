@@ -1,0 +1,7 @@
+{
+    "buildCommand": "next build",
+    "cleanUrls": true,
+    "devCommand": "next dev",
+    "installCommand": "npm install"
+  }
+ 
