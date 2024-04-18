@@ -14,12 +14,13 @@ app.use(bodyParser.json());
 app.use('/api',apiRouter)
 
 
-// app.get('/',(req,res)=>{
-//     res.send('Hello World!!')
-// })
+app.get('/',(req,res)=>{
+    res.send('Hello World!!')
+})
 
 
 
 app.listen(port,(req,res)=>{
     console.log(`listening on port ${port}`)
+   
 })
